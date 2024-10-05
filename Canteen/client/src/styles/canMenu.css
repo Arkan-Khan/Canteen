@@ -1,0 +1,32 @@
+.containerMenu {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px; /* Add spacing between grid items */
+}
+
+.menu {
+  grid-column: 1/2;
+  overflow-y: auto; /* Use auto for better UX */
+  height: 90vh;
+  scroll-behavior: smooth; /* Smooth scroll behavior */
+  padding: 10px; /* Padding for better readability */
+}
+
+.menuForm {
+  grid-column: 2/3;
+  margin: 10vh 20px 0 20px;
+  padding: 20px; /* Add padding to the form */
+  border: 1px solid #ccc; /* Optional: border for the form */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .containerMenu {
+    grid-template-columns: 1fr; /* Switch to single column */
+  }
+
+  .menuForm {
+    margin: 10px; /* Adjust margin on smaller screens */
+  }
+}

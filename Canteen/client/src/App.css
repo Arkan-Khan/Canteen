@@ -1,0 +1,71 @@
+
+body {
+  font-family: Arial, sans-serif; /* Set a default font family */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f4f4f4; /* Light background for better contrast */
+  color: #333; /* Default text color */
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px; /* Limit the maximum width for larger screens */
+  margin: 0 auto; /* Center the app on the page */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.danger {
+  color: red;
+}
+
+button {
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Rounded corners for buttons */
+  padding: 10px 15px; /* Add padding for buttons */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0b7b48; /* Change background color on hover */
+}
+
+.container {
+  padding: 20px; /* Add padding for containers */
+  margin: 20px 0; /* Vertical margin for spacing */
+  background-color: white; /* White background for containers */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners for containers */
+}
+
+/* Responsive Typography */
+h1, h2, h3, h4 {
+  margin: 10px 0; /* Consistent margin for headings */
+}
+
+h1 {
+  font-size: 2rem; /* Responsive font size */
+}
+
+h2 {
+  font-size: 1.75rem; /* Responsive font size */
+}
+
+h3 {
+  font-size: 1.5rem; /* Responsive font size */
+}
+
+h4 {
+  font-size: 1.25rem; /* Responsive font size */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  button {
+    padding: 8px 12px; /* Adjust button padding for smaller screens */
+  }
+}
